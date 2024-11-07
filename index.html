@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>تولدت مبارک!</title>
+    <title>HBD Roham! </title>
     <style>
       * {
         margin: 0;
@@ -48,7 +48,7 @@
   </head>
   <body>
     <div class="container">
-        <h1>Happy Birthday Roham  &#10084;</h1>
+        <h2>Happy Birthday Roham  &#10084;</h2>
       <p>
         Thinking of the times we spent together brings a sweet smile on my face!
       </p>
@@ -63,14 +63,12 @@
         const container = document.querySelector(".container");
         const video = document.getElementById("birthdayVideo");
 
-        // انیمیشن ورود صفحه
         setTimeout(() => {
           container.style.opacity = "1";
           container.style.transform = "scale(1)";
           container.style.transition = "opacity 1.5s ease, transform 1.5s ease";
         }, 500);
 
-        // انیمیشن ورود ویدیو
         video.addEventListener("canplay", () => {
           video.style.opacity = "1";
           video.style.transform = "translateY(0)";
